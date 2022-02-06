@@ -5,8 +5,7 @@ backlash_cat = "I'm \\ a \\ cat."
 fat_cat = """
 I'll do a list:
 \t* Cat food
-\t* Fishes
-\t* Catnip\n\t Grass
+ =]809uihv d=]t* Catnip\n\t Grass
 """
 
 print(tabby_cat)
