@@ -213,7 +213,6 @@ def function10():
     print("In my opinion the best computer brand is " + a)
 
 function10()
-"""
 
 # variable inside a function, with the same name as th global variable.
 
@@ -304,3 +303,178 @@ def globalfunction10():
 globalfunction10()
 
 print("2022 I " + jj + " every week.")
+
+# the global keyword
+
+from glob import glob
+
+
+def myfunc(): #ex1
+    global x
+    x = "amazing"
+
+myfunc()
+
+print("Python is " + x)
+
+def myfunc2(): #ex2
+    global k
+    k = "king"
+
+myfunc2()
+print("Simba is the " + k)
+
+def myfunc3(): #ex3
+    global i
+    i = "Iphone"
+
+myfunc3()
+print("The phone I have is an " + i)
+
+
+def myfunc4(): #ex4
+    global c
+    c = "Chronixx"
+
+myfunc4()
+print("I enjoy listening to the reggea artist " + c)
+
+def  myfunc5(): #ex5
+    global a
+    a = "Alkaline"
+
+myfunc5()
+print("The Best dancehall artist is " + a)
+
+def myfunc6(): #ex6
+    global l
+    l = "love"
+
+myfunc6()
+print("Im completly focused on work. Not " + l)
+
+
+def myfunc7(): #ex7
+    global w 
+    w = "water"
+
+myfunc7()
+print("The only drink you should drink everyday is " + w)
+
+def myfunc8(): #ex8
+    global s
+    s = "sunday"
+
+myfunc8()
+print("The super bowl is this " + s)
+
+
+def myfunc9(): #ex9
+    global t 
+    t = "time"
+
+myfunc9() 
+print("The most valuable asset that we have on earth is " + t)
+
+def myfunc10():
+    global g
+    g = "glasses"
+
+myfunc10()
+print("I have terrible vision without my " + g)
+"""
+
+#changing the global variable inside a function, refer to the variable by using the global Keyword.
+
+
+
+
+x = "awesome"
+
+def myfunc(): #ex1
+    global x
+    x = "excellent"
+
+myfunc()
+
+print("Learning Python is" + x)
+
+d = "diamonds"  #ex2
+def myfunc22():
+    global d
+    d = "doomsday"
+
+myfunc22()
+print("superman cant beat " + d)
+
+h = "happy" #ex3
+def myfun33():
+    global h
+    h = "health"
+
+myfun33()
+print("money is cool in all but whats more importnat than that is " + h)
+
+v = "vaction" #ex4
+
+def myfunc44():
+    global v
+    v = "victory"
+
+myfunc44()
+print("I've lost a few battles recently, but I will see " + v)
+
+e = "Eagles" #ex5
+def myfunc55():
+    global e
+    e = "education"
+
+myfunc55()
+print("I love watching sport but right now its all about my " + e)
+
+p = "power" #ex6
+def myfunc66():
+    global p
+    p = "principle"
+    
+myfunc66()
+
+print("As a man you need to stand on your " + p)
+
+mi = "major" #ex7
+def myfunc7():
+    global mi
+    mi = "Michael"
+
+myfunc7()
+
+print("My middle name is " + mi)
+
+
+j = "jackson" #ex8
+def myfunc88():
+    global j
+    j = "jackket"
+
+myfunc88()
+print("The gift that one of my friends gave me was a " + j)
+
+
+f = "resistance" #ex9
+def myfunc99():
+    global f
+    f = "forgive"
+
+myfunc99()
+print("The best thing you do as a human is " + f)
+
+xx = "exercise" #ex10
+
+def myfunc100():
+    global xx
+    xx = "Hvac"
+
+myfunc100()
+print("I will combine my skills in tech with " + xx)
+
+
