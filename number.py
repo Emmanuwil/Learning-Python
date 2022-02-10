@@ -45,7 +45,6 @@ c = -5j
 print(type(a))
 print(type(b))
 print(type(c))
-"""
 
 
 #Type Cnversion
@@ -71,3 +70,30 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
+
+d = 2
+e = 9.9
+f = 17j
+
+dd = float(d) #convert int intp float
+
+
+ee = complex(d) #convert int to complex
+
+
+ff = int(e) #convert float to int
+
+print(dd)
+print(ee)
+print(ff)
+
+print(type(dd))
+print(type(ee))
+print(type(ff))
+"""
+
+
+
+import random
+
+print(random.randrange(1, 10))
