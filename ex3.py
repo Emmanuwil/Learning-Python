@@ -1,7 +1,7 @@
 print("I will now count my children:")
 
 print("Hens" , 25 + 30 / 6)
-print("Rooster" , 100 - 25 * 3 % 4)
+print("Rooster" , 100 - 25 *   3 % 4)
 
 print("Now I will count the eggs")
 
