@@ -119,6 +119,8 @@ if "Python" not in txt2:
 '''
 # more slicing
 xx = "Hello World!"
+yy = "Learning Python, Is Fun!"
+
 print(xx[0])
 print(xx[1])
 print(xx[2])
@@ -145,3 +147,22 @@ print(xx[2:])
 print(xx[-5:-2])
 print(xx[-2:])
 
+#python modify string
+
+print(xx.capitalize())
+print(yy.upper())
+print(xx.casefold())
+print(xx.count('2'))
+
+print(xx.lower())
+print(yy.lower())
+
+print("Today is a good day".lower())
+print(" The rams one the superbowl yesterday. ".strip())
+
+sep = "July"
+print("Mandell birthday is in " + sep + " I need to get a gift.")
+
+print(yy.replace("F", "G").lower())
+print(yy.split(","))  # split() splits the string into sub stings
+print(xx.split())
