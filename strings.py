@@ -18,7 +18,6 @@ print("My moms birthday is next month in " + m + ". I love my mom.")
 print("My father birthday was last month in " + j + ". My father is gives me the best advice.")
 print("Aunt TT birthday is in " + a + ". She is my favorite aunt. What is the date?")
 x = input()
-'''
 
 #slicing 
 
@@ -111,4 +110,38 @@ if "enjoy" in txt:
 print("Kyrie" not in txt3)
 print("Iverson" not in txt2)
 print("matter" not in txt)
+
+if "Iverson" not in txt3:
+    print("Hes the new PG now")
+
+if "Python" not in txt2:
+    print("Ok sir")
+'''
+# more slicing
+xx = "Hello World!"
+print(xx[0])
+print(xx[1])
+print(xx[2])
+print(xx[3])
+print(xx[4])
+print(xx[5])
+print(xx[6])
+print(xx[7])
+print(xx[8])
+print(xx[9])
+print(xx[10])
+print(xx[11])
+
+#Slicing from the start
+print(xx[:12])
+print(xx[:11])
+
+#slice to the end
+
+print(xx[2:])
+
+
+#Negative Indexing
+print(xx[-5:-2])
+print(xx[-2:])
 
