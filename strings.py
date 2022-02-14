@@ -99,3 +99,16 @@ txt3 = "James Harden is in Philly!"
 print("Kyrie" in txt3)
 print("Harden" in txt3)
 
+if "James" in txt3:
+    print("Yes we are the best team now")
+
+if "reason" in txt2:
+    print("Ok then")
+
+if "enjoy" in txt:
+    print("You are right")
+
+print("Kyrie" not in txt3)
+print("Iverson" not in txt2)
+print("matter" not in txt)
+
