@@ -166,3 +166,20 @@ print("Mandell birthday is in " + sep + " I need to get a gift.")
 print(yy.replace("F", "G").lower())
 print(yy.split(","))  # split() splits the string into sub stings
 print(xx.split())
+
+# concatenate
+tt = "This is"
+hh = "How we do it"
+qq = tt + hh
+print(qq)
+
+print(tt + " " + hh.lower())
+
+#Python format strings
+# format() method takes the passed argument, formats them, and places them in the string where the placeholders {} are
+
+age = 27
+
+xxx = input("What is your name and age?")
+txt4 = "My name is Emmanuwil Michael Simon I am {} year old"
+print(txt4.format(age))
