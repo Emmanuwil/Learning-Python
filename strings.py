@@ -83,3 +83,19 @@ print(len(cc))
 print(len(dd))
 print(len(ff))
 print(len(gg))
+
+# checking string
+# To check if a certain string or charcter is present in a string, we use the keyword in
+
+txt = "It dont matter if you enjoy it, just get it down"
+print("Eagle" in txt)
+print("matter" in txt)
+
+txt2 = "What was the reason"
+print("Cardi B" in txt2)
+print("What was" in txt2)
+
+txt3 = "James Harden is in Philly!"
+print("Kyrie" in txt3)
+print("Harden" in txt3)
+
