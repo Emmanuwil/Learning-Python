@@ -116,7 +116,6 @@ if "Iverson" not in txt3:
 
 if "Python" not in txt2:
     print("Ok sir")
-'''
 # more slicing
 xx = "Hello World!"
 yy = "Learning Python, Is Fun!"
@@ -180,6 +179,21 @@ print(tt + " " + hh.lower())
 
 age = 27
 
-xxx = input("What is your name and age?")
-txt4 = "My name is Emmanuwil Michael Simon I am {} year old"
-print(txt4.format(age))
+xxx = ("My name is Emmanuwil and I'm {}")
+print(xxx.format(age))
+
+'''
+quantity = 90
+itemno = 567
+price = 39.99
+myorder = "I want {} piecies of paper. {} for {} dollars"
+
+print(myorder.format(quantity, itemno, price))
+
+# index number are helpful for making sure arguments are in thr right place.
+myorder1 = "I want to pay {2} dollars for {0} pieces of item. {1}"
+
+print(myorder1.format(quantity, itemno, price))
+
+
+
